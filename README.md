@@ -1,20 +1,14 @@
 # INST377 Midterm Assignment
 
-## Change Color Demo
+Change Color Demo
 
-This project is a simple HTML, CSS, and JavaScript demonstration. It displays a centered heading and a **Change Color** button.
+This project is a simple HTML, CSS, and JavaScript demonstration.
 
-Clicking the button cycles the heading through these colors:
+## Technologies Used
 
-- Blue
-- Red
-- Green
-- Yellow
-- Orange
-- Purple
-- Pink
-
-The page uses the Helvetica font with a sans-serif fallback.
+- **HTML:** Defines the page structure, including the heading and button.
+- **CSS:** The [`style.css`](./style.css) file styles the page layout, heading color, Helvetica font, spacing, and button.
+- **JavaScript:** The [`script.js`](./script.js) file listens for button clicks and cycles the heading through the color list.
 
 ## How to Run
 

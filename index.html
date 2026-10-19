@@ -4,40 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Change Color</title>
-    <style>
-      body {
-        margin: 0;
-        font-family: Helvetica, sans-serif;
-      }
-
-      h1 {
-        margin: 26px 0 0;
-        color: pink;
-        text-align: center;
-      }
-
-      button {
-        margin: 28px 0 0 27px;
-        padding: 2px 9px;
-        font-size: 16px;
-        cursor: pointer;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <h1 id="heading">This is a heading</h1>
     <button id="change-color" type="button">Change Color</button>
 
-    <script>
-      const heading = document.querySelector('#heading');
-      const changeColorButton = document.querySelector('#change-color');
-      const colors = ['blue', 'red', 'green', 'yellow', 'orange', 'purple', 'pink'];
-      let colorIndex = 0;
-
-      changeColorButton.addEventListener('click', () => {
-        colorIndex = (colorIndex + 1) % colors.length;
-        heading.style.color = colors[colorIndex];
-      });
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>

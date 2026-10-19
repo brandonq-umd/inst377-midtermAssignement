@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  margin: 26px 0 0;
+  color: pink;
+  text-align: center;
+}
+
+button {
+  margin: 28px 0 0 27px;
+  padding: 2px 9px;
+  font-size: 16px;
+  cursor: pointer;
+}
